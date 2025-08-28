@@ -57,7 +57,15 @@ The models were evaluated using **Unigram, Bigram, and Trigram features**. Perfo
 ---
 
 ### Performance with Bigram Features
-*Same as above table, or copy the table if values are identical.*
+| Model       | Accuracy (%) | Precision (%) | Recall (%) | F1 Score (%) |
+|------------|-------------|---------------|------------|--------------|
+| LR         | 87.18       | 86.77         | 100.0      | 92.92        |
+| DT         | 90.35       | 94.27         | 94.27      | 94.27        |
+| RF         | 90.47       | 89.82         | 100.0      | 94.64        |
+| MNB        | 92.59       | 92.01         | 99.86      | 95.77        |
+| KNN        | 84.47       | 84.42         | 100.0      | 91.55        |
+| Linear SVM | 84.59       | 84.52         | 100.0      | 91.61        |
+| RBF SVM    | 87.88       | 87.41         | 100.0      | 93.28        |
 
 **Highlights:**
 - Highest Accuracy: **MNB (92.59%)**
@@ -68,7 +76,15 @@ The models were evaluated using **Unigram, Bigram, and Trigram features**. Perfo
 ---
 
 ### Performance with Trigram Features
-*Same as above table.*
+| Model       | Accuracy (%) | Precision (%) | Recall (%) | F1 Score (%) |
+|------------|-------------|---------------|------------|--------------|
+| LR         | 87.18       | 86.77         | 100.0      | 92.92        |
+| DT         | 90.35       | 94.27         | 94.27      | 94.27        |
+| RF         | 90.47       | 89.82         | 100.0      | 94.64        |
+| MNB        | 92.59       | 92.01         | 99.86      | 95.77        |
+| KNN        | 84.47       | 84.42         | 100.0      | 91.55        |
+| Linear SVM | 84.59       | 84.52         | 100.0      | 91.61        |
+| RBF SVM    | 87.88       | 87.41         | 100.0      | 93.28        |
 
 **Highlights:**
 - Highest Accuracy: **MNB (92.59%)**
